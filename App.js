@@ -3,14 +3,16 @@ import React from 'react';
 import 'react-native-gesture-handler';
 import { StyleSheet, Text, View } from 'react-native';
 import Route from './Src/Routing/Route';
-import Main from './Src/Pages/FrontPage';
+
 import Img1 from './Src/Images/Img1.jpeg';
 
 export default function App() {
   return (
-  
-    //  <Route/> 
-    <Main/>
+   
+      <Route/>
+    
+     
+   
   
   );
 }

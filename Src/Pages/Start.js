@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { StyleSheet,TouchableOpacity, Text, View,Image } from 'react-native';
+import { StyleSheet,TouchableOpacity, Text, View,Image,StatusBar } from 'react-native';
 import Img1 from '../Images/Img1.jpeg';
 import { Feather } from '@expo/vector-icons'; 
+
 import { AntDesign } from '@expo/vector-icons';
 import { Actions } from 'react-native-router-flux';
 import BarCode from '../Components/BarCodeScanner';
@@ -22,6 +23,7 @@ export default function App() {
     }
         return (
             <View style={styles.container}>
+               <StatusBar backgroundColor='red' barStyle='dark-content' />
                  <TouchableOpacity
                style={{ right:10, top:13, position:'absolute'}}
                 onPress={About}><Feather name="help-circle" size={24} color="black" />

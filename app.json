@@ -4,9 +4,9 @@
     "slug": "ProveIdentity",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "Prove.jpeg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "Prove.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
